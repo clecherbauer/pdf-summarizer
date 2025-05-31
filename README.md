@@ -16,17 +16,7 @@ This project summarizes large PDF documents using a local LLaMA model (e.g., Mis
 ---
 
 ## 🔧 Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/your-username/pdf-llama-summarizer.git
-cd pdf-llama-summarizer
-```
-
----
-
-### 2. Create and Activate Virtual Environment
+### 1. Create and Activate Virtual Environment
 
 ```bash
 python3 -m venv .venv
@@ -35,7 +25,7 @@ source .venv/bin/activate
 
 ---
 
-### 3. Install CUDA 12 (Ubuntu)
+### 2. Install CUDA 12 (Ubuntu)
 
 ```bash
 # Prioritize NVIDIA packages
@@ -62,7 +52,7 @@ nvcc --version
 
 ---
 
-### 4. Install Python Dependencies
+### 3. Install Python Dependencies
 
 #### llama-cpp-python (GPU/cuBLAS):
 

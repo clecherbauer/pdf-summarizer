@@ -1,0 +1,6 @@
+.idea
+.venv
+final_summary.txt
+partial_summaries
+debug_outputs
+models
